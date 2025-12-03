@@ -2,7 +2,7 @@ import numpy as np
 
 
 def sigmoid(x):
-    """Return the sigmoid activation for a scalar or NumPy array."""
+   
     return 1 / (1 + np.exp(-x))
 
 if __name__ == "__main__":
